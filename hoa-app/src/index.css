@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 150px;
+    width: 200px;
+}
+
+.container-style{
+    padding-top: 20px;
+}
+
+.green-text{
+    color: green;
+}
+
+.header-style{
+    background-color:lightyellow;
+}
+
+.login-style{
+    text-align: center;
+    color: green;
+}
+
+.matkhau-style{
+    margin-top: 10px;
+}
+
+.button-style{
+    background-color: lightgrey;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.div-button{
+    align-items: center;
+    text-align: center;
+}
+
+.thanhtoan-style{
+    text-align: center;
+    color: green;
+}
+
+.creditcard-style{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.logout-icon{
+    color: yellowgreen;
+}
+
+.user-style{
+    margin-left: 50px;
+    margin-top:6px;
+    cursor: pointer;
+}
+
+.title-style{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.menu-style{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.table-style{
+    border-collapse: separate;
+}
+
+.title-style a{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.ul-style{
+    list-style-type:none;
+    padding-top: 10px;
+}
+
+.ul-style a{
+    color: green;
+}
+
+.ul-style img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height:100%;
+    max-width:100%;
+}
+
+.flowerstyle-style{
+    background-color: lightyellow;
+}
+
+.flowerList {
+    margin: 1rem auto;
+    display: grid;
+    gap: 0.3rem;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+}
+
+
+.flower {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+.product-style{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.product-style a{
+    color: green;
+    font-weight: bold;
+}
+
+.flowerdetail-style{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+.imgflowerdetail-style {
+    width: 100%;
+}
+
+.valigncenter{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.search{
+    margin: auto;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.search-bar{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+.search h3{
+    font-size: 24px;
+    color: green;
+}
+
+.btn-search{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search-kq{
+    text-align: center;
+    color: rgb(1, 84, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.search-img{
+    width: 100%;
+}
+
+.chitiethoa{
+    margin-left: 20px;
+}
+
+.img-container{
+    width: 400px;
+}
+
+.error{
+    text-align: center;
+    font-size: 24px;
+}
+
+.not-active{
+    color: grey;
+    cursor: pointer;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
